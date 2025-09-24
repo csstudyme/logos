@@ -1,70 +1,32 @@
-<!-- techstack-logo.svg — professional, single-file SVG for README / SIH submission -->
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Tech stack overview">
-  <defs>
-    <style>
-      .bg { fill: #ffffff; }
-      .card { fill: #0f172a; opacity: 0.04; rx: 18px; }
-      .title { font: 700 28px/1 "Inter", Arial, sans-serif; fill: #0f172a; }
-      .subtitle { font: 500 14px/1 "Inter", Arial, sans-serif; fill: #475569; }
-      .section-label { font: 700 13px/1 "Inter", Arial, sans-serif; fill: #0f172a; }
-      .tech { font: 600 13px/1 "Inter", Arial, sans-serif; fill: #0f172a; }
-      .pill { fill: #ffffff; stroke: #e6eef6; stroke-width: 1; rx: 10px; }
-      .divider { stroke: #e6eef6; stroke-width: 1; }
-    </style>
-  </defs>
+# ⚙️ Tech Stack
 
-  <rect width="1200" height="320" class="bg" />
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white&style=for-the-badge)
+![React Native](https://img.shields.io/badge/React%20Native-20232A?logo=react&logoColor=61DAFB&style=for-the-badge)
+![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-593D88?logo=redux&logoColor=white&style=for-the-badge)
+![TailwindCSS](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?logo=tailwindcss&logoColor=white&style=for-the-badge)
 
-  <!-- Left emblem -->
-  <g transform="translate(28,28)">
-    <rect width="220" height="264" rx="18" fill="#0ea5a4" />
-    <text x="110" y="110" class="title" fill="#ffffff" text-anchor="middle">TECH</text>
-    <text x="110" y="140" class="subtitle" fill="#ecfeff" text-anchor="middle">STACK OVERVIEW</text>
-    <text x="110" y="172" class="subtitle" fill="#ecfeff" text-anchor="middle" style="font-weight:600;">(For SIH / Review)</text>
-  </g>
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white&style=for-the-badge)
+![Express.js](https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white&style=for-the-badge)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white&style=for-the-badge)
+![PostGIS](https://img.shields.io/badge/PostGIS-336791?logo=postgresql&logoColor=white&style=for-the-badge)
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white&style=for-the-badge)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?logo=socket.io&logoColor=white&style=for-the-badge)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?logo=rabbitmq&logoColor=white&style=for-the-badge)
 
-  <!-- Right content card -->
-  <g transform="translate(270,28)">
-    <rect width="880" height="264" class="card" rx="16" />
+![Hyperledger](https://img.shields.io/badge/Hyperledger-2F3134?logo=hyperledger&logoColor=white&style=for-the-badge)
+![Solidity](https://img.shields.io/badge/Solidity-363636?logo=solidity&logoColor=white&style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=for-the-badge)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white&style=for-the-badge)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FED141?logo=huggingface&logoColor=black&style=for-the-badge)
 
-    <!-- Header -->
-    <text x="28" y="40" class="title">Tech stack — concise, production-ready</text>
-    <text x="28" y="64" class="subtitle">Clear grouping for reviewers: Frontend · Backend · Blockchain · AI/Infra · APIs & DevOps</text>
+![OpenStreetMap](https://img.shields.io/badge/OpenStreetMap-7EBC6F?logo=openstreetmap&logoColor=white&style=for-the-badge)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black&style=for-the-badge)
+![Twilio](https://img.shields.io/badge/Twilio-F22F46?logo=twilio&logoColor=white&style=for-the-badge)
+![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?logo=cloudinary&logoColor=white&style=for-the-badge)
+![AWS S3](https://img.shields.io/badge/AWS%20S3-569A31?logo=amazons3&logoColor=white&style=for-the-badge)
 
-    <!-- Divider -->
-    <line x1="28" y1="78" x2="852" y2="78" class="divider" />
-
-    <!-- Frontend -->
-    <g transform="translate(28,92)">
-      <rect x="0" y="0" width="820" height="40" class="pill" />
-      <text x="12" y="26" class="section-label">Frontend</text>
-      <text x="120" y="26" class="tech">React.js · React Native · Redux Toolkit · Tailwind CSS</text>
-    </g>
-
-    <!-- Backend -->
-    <g transform="translate(28,142)">
-      <rect x="0" y="0" width="820" height="40" class="pill" />
-      <text x="12" y="26" class="section-label">Backend</text>
-      <text x="120" y="26" class="tech">Node.js · Express.js · PostgreSQL · PostGIS · Redis · Socket.IO · RabbitMQ</text>
-    </g>
-
-    <!-- AI / Blockchain / Infra -->
-    <g transform="translate(28,192)">
-      <rect x="0" y="0" width="820" height="40" class="pill" />
-      <text x="12" y="26" class="section-label">AI · Blockchain · Infra</text>
-      <text x="210" y="26" class="tech">Python · PyTorch · Scikit-learn · TensorFlow Lite · ONNX · HuggingFace · Hyperledger Fabric · Solidity</text>
-    </g>
-
-    <!-- Bottom row: APIs & DevOps -->
-    <g transform="translate(28,242)">
-      <rect x="0" y="0" width="820" height="40" class="pill" />
-      <text x="12" y="26" class="section-label">APIs & DevOps</text>
-      <text x="160" y="26" class="tech">OpenStreetMap · Open-Meteo · Firebase Auth · Twilio · Cloudinary · AWS S3 · Docker · Docker Compose · GitHub Actions · Let's Encrypt · Prometheus · Grafana</text>
-    </g>
-
-  </g>
-
-  <!-- Footer small note -->
-  <text x="28" y="308" class="subtitle">Add to README: <tspan style="font-weight:700">![Tech Stack](./assets/techstack-logo.svg)</tspan></text>
-
-</svg>
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white&style=for-the-badge)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white&style=for-the-badge)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white&style=for-the-badge)
